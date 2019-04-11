@@ -7,9 +7,9 @@ The documentation in the Documentation folder shows step-by-step how to create s
 ## Build Dependencies
 These dependencies of the package must be installed before the package is compiled. Otherwise it won't compile anyway. :)
 
-* **Ncurses**(https://www.cyberciti.biz/faq/linux-install-ncurses-library-headers-on-debian-ubuntu-centos-fedora/) is used for asynchronous control of the joints and can be downloaded and installed online.
+* [Ncurses](https://www.cyberciti.biz/faq/linux-install-ncurses-library-headers-on-debian-ubuntu-centos-fedora/) is used for asynchronous control of the joints and can be downloaded and installed online.
 
-* **eDO_core_msgs**(https://github.com/Comau/eDO_core_msgs) folder contains the messages for the communication of the robot. You can find it on the GitHub page of the Comau.
+* [eDO_core_msgs](https://github.com/Comau/eDO_core_msgs) folder contains the messages for the communication of the robot. You can find it on the GitHub page of the Comau.
 
 * **C++11**
 
