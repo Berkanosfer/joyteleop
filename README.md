@@ -67,3 +67,11 @@ $ source ros_edoj.sh // not necessary, this is my start file
 $ roslaunch joyteleop joyteleop.launch
 ```
 ### Enjoy!
+
+## Authors
+* [Berkanosfer](mailto:berkan@kuzyaka.com)
+
+## Licence
+
+Licenced under the MIT Licence.
+
