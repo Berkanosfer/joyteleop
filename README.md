@@ -1,6 +1,6 @@
 # joyteleop - Joystick Teleoperation Node for e.DO
 
-This ROS Node is intended and written for the e.DO robot of Comau. The e.DO Robot of Comau is an educational robot. Therefore, this node is especially for beginners who want to see how to communicate with the robot. The task of this node is to control the robot with an x-Box 360 Controller. I hope that this node can help all those who want to work on it.
+This ROS Node is intended and written for the e.DO robot of Comau. The e.DO Robot of Comau is an educational robot. Therefore, this node is especially for beginners who want to see how to communicate with the robot. The task of this node is to control the robot with an x-Box 360 Controller. I hope that this node can help everyone who want to work on it.
 
 The PDF files in the Documentation folder shows step-by-step how to create such a node and which messages have to be sent to the robot.
 
