@@ -32,9 +32,6 @@ catkin_make
 
 The creation of a start file serves to ensure that the environment is started correctly and all at once. So it saves the effort later on. This file is best located in the home directory. It also connects us to the robot. The IP addresses below must therefore be replaced with the correct ones depending on the situation.
 ```
-#!/bin/bash
-cd YOUR_WORKSPACE
-source devel/setup.bash
 export ROS_IP = //the own IP address of the computer
 export ROS_MASTER_URI = //the IP address of the robot or the ROS master.
 sudo modprobe joydev
@@ -42,3 +39,15 @@ sudo modprobe xpad
 ```
 The last two lines activate the joystick when starting the environment.
 
+## Connecting to the robot
+Two options are available: WLAN connection and LAN connection.
+### 1. Wi-Fi Connection
+You must first connect to the robot's own WLAN network and execute the start file. Make sure that the IP addresses have been replaced with the correct ones.
+### 2. LAN Connection
+In order to reach the robot via LAN, it must first be established an SSH connection with the following code.
+```
+$ ssh edo@10.42.0.49
+```
+This is the robot's default IP address. So that we can create our own environment, it is best to reserve an IP address on our router.
+
+The password for the robot is: raspberry. With the following code the ```ministarter``` of the robot is opened:
