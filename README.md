@@ -4,6 +4,8 @@ This ROS Node is intended and written for the e.DO robot of Comau. The e.DO Robo
 
 The documentation in the Documentation folder shows step-by-step how to create such a node and which messages have to be sent to the robot.
 
+![Connect](https://github.com/Berkanosfer/joyteleop/blob/master/Images/Rosconnect.JPG)
+
 ## Build Dependencies
 These dependencies of the package must be installed before the package is compiled. Otherwise it won't compile anyway. :)
 
