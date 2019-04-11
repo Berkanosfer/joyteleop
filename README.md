@@ -49,7 +49,8 @@ Two options are available: WLAN connection and LAN connection.
 ### 1. Wi-Fi Connection
 You must first connect to the robot's own WLAN network and execute the start file. Make sure that the IP addresses have been replaced with the correct ones.
 ### 2. LAN Connection
-In order to reach the robot via LAN, it must first be established an SSH connection with the following code.
+In order to reach the robot via LAN, it must first be established an SSH connection with the following code. So that you can change the ROS_MASTER_URI and the ROS_IP.
+
 ```
 $ ssh edo@10.42.0.49
 ```
