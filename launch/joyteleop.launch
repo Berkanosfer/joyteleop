@@ -1,0 +1,11 @@
+<launch>
+
+<node pkg="joy" type="joy_node" name="joy_node" output="screen"/>
+
+<!-- The joyteleop node of e.DO robot -->
+<node pkg="joyteleop" name="joyteleop" type="joyteleop" output="screen">
+</node>
+
+
+
+</launch>
