@@ -2,7 +2,7 @@
 
 This ROS Node is intended and written for the e.DO robot of Comau. The e.DO Robot of Comau is an educational robot. Therefore, this node is especially for beginners who want to see how to communicate with the robot. The task of this node is to control the robot with an x-Box 360 Controller. I hope that this node can help all those who want to work on it.
 
-The documentation in the Documentation folder shows step-by-step how to create such a node and which messages have to be sent to the robot.
+The PDF files in the Documentation folder shows step-by-step how to create such a node and which messages have to be sent to the robot.
 
 ![Connect](https://github.com/Berkanosfer/joyteleop/blob/master/Images/Rosconnect.JPG)
 
@@ -63,7 +63,7 @@ The corresponding lines containing the IP address must be replaced with the corr
 ## 3. How to start the robot?
 The following code is used to execute the start and launch files and therefore the two nodes should be started with a proper connection to the e.DO robot.
 ```
-$ source ros_edoj.sh
+$ source ros_edoj.sh // not necessary, this is my start file
 $ roslaunch joyteleop joyteleop.launch
 ```
 ### Enjoy!
