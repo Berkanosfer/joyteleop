@@ -13,6 +13,11 @@ These dependencies of the package must be installed before the package is compil
 
 * [eDO_core_msgs](https://github.com/Comau/eDO_core_msgs) folder contains the messages for the communication of the robot. You can find it on the GitHub page of the Comau. This folder must also be in the /src folder.
 
+* [sensor_msgs](https://github.com/ros/common_msgs)
+
+* [Joystick-Drivers](https://github.com/ros-drivers/joystick_drivers)
+->Alternative: ```sudo apt-get install ros-YOUR_ROS_VERSION-joy```
+
 * **C++11**
 
 ## How to install?
@@ -55,3 +60,10 @@ The password for the robot is: raspberry. With the following code the ```minista
 
 The corresponding lines containing the IP address must be replaced with the correct ones. After saving the new settings, the robot must be restarted.
 ```$ sudo reboot```
+## 3. How to start the robot?
+The following code is used to execute the start and launch files and therefore the two nodes should be started with a proper connection to the e.DO robot.
+```
+$ source ros_edoj.sh
+$ roslaunch joyteleop joyteleop.launch
+```
+### Enjoy!
