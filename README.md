@@ -75,3 +75,5 @@ $ roslaunch joyteleop joyteleop.launch
 
 Licenced under the MIT Licence.
 
+#### Source of some pictures:
+- Google Images
