@@ -16,7 +16,7 @@ These dependencies of the package must be installed before the package is compil
 * **C++11**
 
 ## How to install?
-### Clone the package
+### 1. Clone the package
 
 You need to clone this repository into the /src folder of the catkin-workspace. Use catkin_make to build your directory.
 
@@ -26,13 +26,19 @@ git clone https://github.com/Berkanosfer/joyteleop.git
 cd ..
 catkin_make
 ```
-### Creating an environment for e.DO
+### 2. Creating an environment for e.DO
+
+![ros_edoj.sh](https://github.com/Berkanosfer/joyteleop/blob/master/Images/15.jpg)
 
 The creation of a start file serves to ensure that the environment is started correctly and all at once. So it saves the effort later on. This file is best located in the home directory. It also connects us to the robot. The IP addresses below must therefore be replaced with the correct ones depending on the situation.
 ```
+#!/bin/bash
+cd YOUR_WORKSPACE
+source devel/setup.bash
 export ROS_IP = //the own IP address of the computer
 export ROS_MASTER_URI = //the IP address of the robot or the ROS master.
 sudo modprobe joydev
 sudo modprobe xpad
 ```
 The last two lines activate the joystick when starting the environment.
+
