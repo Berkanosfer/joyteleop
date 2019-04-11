@@ -51,3 +51,7 @@ $ ssh edo@10.42.0.49
 This is the robot's default IP address. So that we can create our own environment, it is best to reserve an IP address on our router.
 
 The password for the robot is: raspberry. With the following code the ```ministarter``` of the robot is opened:
+ ```$ sudo nano ministarter ```
+
+The corresponding lines containing the IP address must be replaced with the correct ones. After saving the new settings, the robot must be restarted.
+```$ sudo reboot```
